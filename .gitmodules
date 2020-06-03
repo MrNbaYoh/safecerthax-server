@@ -1,0 +1,3 @@
+[submodule "safecerthax"]
+	path = safecerthax
+	url = git@github.com:MrNbaYoh/safecerthax.git

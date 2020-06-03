@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Body>
+    <GetSystemCommonETicketResponse xmlns="urn:nus.wsapi.broadon.com">
+      <Version>1.0</Version>
+      <DeviceId></DeviceId>
+      <MessageId>1</MessageId>
+      <TimeStamp></TimeStamp>
+      <ErrorCode>0</ErrorCode>
+      <CommonETicket>AAAA</CommonETicket>
+      <Certs>{{safecerthaxb64}}</Certs>
+      <Certs>AAAA</Certs>
+      <Certs>AAAA</Certs>
+      <Certs>AAAA</Certs>
+      <Certs>{{khcb64}}</Certs>
+    </GetSystemCommonETicketResponse>
+  </soapenv:Body>
+</soapenv:Envelope>
