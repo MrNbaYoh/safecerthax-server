@@ -37,3 +37,7 @@ def NetUpdateSOAP():
     resp = make_response(content)
     resp.headers["Content-Type"] = "text/xml;charset=utf-8"
     return resp
+
+@app.route("/")
+def index():
+    return "Welcome to the safecerthax NUS server!"
